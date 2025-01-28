@@ -52,7 +52,7 @@ const sendStoredEmail = async (req, res) => {
     // Email options
     const mailOptions = {
       from: process.env.SMTP_USER,
-      to: "upender.k@teksacademy.com",
+      to: "tsk@kapilengineers.com",
       subject: "Welcome to Our Service",
       text: `Hello ${fetchedData.name},\nWelcome to our service!`,
       html: emailBody,
